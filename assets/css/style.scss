@@ -2,6 +2,8 @@
 ---
 
 @import "{{ site.theme }}";
+@import "reset";
+@import "variables";
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic&family=Rubik:wght@300;400&display=swap');
 /**************/
 /* BASE RULES */
