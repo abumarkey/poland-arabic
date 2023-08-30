@@ -13,8 +13,9 @@ html {
 
 body {
   background: #EDEDED;
-  font-family: 28px 'Rubik', serif;
+  font-family: 'Rubik', sans-serif;
   text-direction: rtl;
+  font-size: 28px;
   font-weight: 300;
   color: #565656;
   text-align: justify;
@@ -29,7 +30,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'IBM Plex Sans Arabic', serif;
+  font-family: 'IBM Plex Sans Arabic', sans-serif;
   color: #565656;
   font-weight: 400;
 
@@ -58,14 +59,6 @@ h3 {
 h4 {
   font-size: 30px;
   color: #565656;
-}
-
-p {
-  margin: 15px 0;
-  font-size: 28px;
-  font-family: 28px 'Rubik', serif;
-  text-direction: rtl;
-  font-weight: 300;
 }
 
 a {
