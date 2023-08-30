@@ -65,11 +65,11 @@ p {
 }
 
 a {
-  color: #1aa478;
+  color: #5556DE;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: #66CDAA;
+    color: #7373D7;
     text-decoration: none; 
   }
 }
@@ -114,7 +114,7 @@ img {
 
 .date {
   font-style: italic;
-  color: #1aa478;
+  color: #5556DE;
 }
 
 // Specify the color of the selection
@@ -128,7 +128,7 @@ img {
 }
 .site-name {
   margin: 0;
-  color: #1aa478;
+  color: #5556DE;
   cursor: pointer;
   font-family: 'IBM Plex Sans Arabic', serif;
   font-weight: 700;
@@ -151,7 +151,7 @@ nav {
 
   a {
     margin-left: 20px;
-    color: #1aa478;
+    color: #5556DE;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
