@@ -57,7 +57,7 @@ h3 {
 
 h4 {
   font-size: 30px;
-  color: $gray;
+  color: #565656;
 }
 
 p {
@@ -119,12 +119,12 @@ img {
 
 // Specify the color of the selection
 ::-moz-selection {
-  color: $white;
-  background: #1aa478;
+  color: #fff;
+  background: #5556DE;
 }
 ::selection {
-  color: $white;
-  background: #1aa478;
+  color: #fff;
+  background: #5556DE;
 }
 .site-name {
   margin: 0;
@@ -138,7 +138,7 @@ img {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $gray;
+  color: ;
   font-size: 16px;
 
 }
@@ -160,7 +160,7 @@ nav {
 }
 .posts > .post {
   padding-bottom: 2em;
-  border-bottom: 0px solid $lightGray;
+  border-bottom: 0px solid #DAD9D9;
 }
 
 .posts > .post:last-child {
@@ -171,7 +171,7 @@ nav {
 .post {
   blockquote {
     margin: 1.8em .8em;
-    border-left: 2px solid $gray;
+    border-left: 2px solid #DAD9D9;
     padding: 0.1em 1em;
     color: #1aa478;
     font-size: 22px;
