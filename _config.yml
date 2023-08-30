@@ -2,4 +2,4 @@ theme: minima
 title: بولندا بالعربية
 author: ماريك فرونس
 description: مدونة عن بولندا مِن بولنديّ
-remote_theme: pages-themes/tactile@v0.2.0
+remote_theme: pages-themes/minimal@v0.2.0
