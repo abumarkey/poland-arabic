@@ -9,3 +9,6 @@ title: عنّي
 
 ## التصال 
 [ماستودون](https://masto.ai/@abumarkey) · بريد إلكترونيّ: marek.fronc@proton.me
+
+<center><img src="https://i.postimg.cc/0N2VRbhh/D146074-E-0-C75-434-C-8-B13-F627-C0382682.png" alt="self-portrait" width="300" /></center>
+
