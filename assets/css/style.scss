@@ -14,7 +14,7 @@ html {
 body {
   background: #EDEDED;
   font-family: 'Rubik', sans-serif;
-  text-direction: rtl;
+  direction: rtl;
   font-size: 28px;
   font-weight: 300;
   color: #565656;
@@ -61,18 +61,16 @@ h4 {
   color: #565656;
 }
 
-p.rtl {
-  direction: rtl;
+a:link {
+  color: #517BC1;
 }
 
-a {
-  color: #5556DE;
-  text-decoration: none;
-	cursor: pointer;
-  &:hover, &:active {
-    color: #7373D7;
-    text-decoration: none; 
-  }
+a:hover {
+  color: #6183BC;
+}
+
+a:active {
+  color: #6183BC;
 }
 
 ul, ol {
@@ -115,17 +113,17 @@ img {
 
 .date {
   font-style: italic;
-  color: #5556DE;
+  color: #517BC1;
 }
 
 // Specify the color of the selection
 ::-moz-selection {
   color: #fff;
-  background: #5556DE;
+  background: #517BC1;
 }
 ::selection {
   color: #fff;
-  background: #5556DE;
+  background: #517BC1;
 }
 
 .site-name {
@@ -152,7 +150,7 @@ nav {
 
   a {
     margin-left: 20px;
-    color: #5556DE;
+    color: #517BC1;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
@@ -172,10 +170,10 @@ nav {
 .post {
   blockquote {
     margin: 1.8em .8em;
-    border-left: 2px solid #DAD9D9;
+    border-left: 2px solid #517BC1;
     padding: 0.1em 1em;
     color: #1aa478;
-    font-size: 22px;
+    font-size: 24px;
     font-style: italic;
   }
 
