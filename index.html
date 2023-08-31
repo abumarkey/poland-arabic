@@ -12,7 +12,7 @@ layout: default
         {{ post.excerpt }}
       </div>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">المقالة الكامل</a> / {{ post.date | date:  "%d.%m.%Y" }}
+      <p style:"text-size:22px;"><a href="{{ site.baseurl }}{{ post.url }}" class="read-more">المقالة الكامل</a> / {{ post.date | date:  "%d.%m.%Y" }}</p>
     </article>
-  {% endfor %}
+  {% endfor %} 
 </div>
