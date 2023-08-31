@@ -15,7 +15,7 @@ body {
   background: #EDEDED;
   font-family: 'Rubik', sans-serif;
   direction: rtl;
-  font-size: 28px;
+  font-size: 22px;
   font-weight: 300;
   color: #565656;
   text-align: justify;
@@ -61,16 +61,24 @@ h4 {
   color: #565656;
 }
 
+p { 
+  font-size: 27px;
+  font-weight: 300;
+} 
+
 a:link {
   color: #517BC1;
+  font-weight: 300;
 }
 
 a:hover {
   color: #6183BC;
+  font-weight: 300;
 }
 
 a:active {
   color: #6183BC;
+  font-weight: 300;
 }
 
 ul, ol {
