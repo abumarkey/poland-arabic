@@ -62,6 +62,7 @@ h4 {
 }
 
 p { 
+  font-family: 'Rubik', sans-serif;
   font-size: 27px;
   font-weight: 300;
 } 
@@ -102,7 +103,7 @@ em, i {
 }
 
 strong, b {
-  font-weight: 500;
+  font-weight: 400;
 }
 
 img {
@@ -115,7 +116,6 @@ img {
 }
 
 .date {
-  font-style: italic;
   font-size: 22px;
   color: #517BC1;
 }
@@ -142,15 +142,15 @@ img {
 .site-description {
   margin: -5px 0 0 0;
   color: #5556DE;
-  font-size: 24px;
-
+  font-size: 22px;
 }
+
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
   font-family: 'IBM Plex Sans Arabic', sans-serif;
   font-size: 22px;
-
+}
 
   a {
     margin-left: 20px;
@@ -161,6 +161,7 @@ nav {
 
   }
 }
+
 .posts > .post {
   padding-bottom: 2em;
   border-bottom: 0px solid #DAD9D9;
