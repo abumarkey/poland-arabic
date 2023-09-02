@@ -11,8 +11,7 @@ layout: default
   <div class="entry">
         {{ post.excerpt }}
       </div>
-
-      <p style:"text-size:22px;">{{ post.date | date:  "%d.%m.%Y" }} · <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">المقالة الكامل</a></p>
+      {{ post.date | date:  "%d.%m.%Y" }} · <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">المقالة الكامل</a>
     </article>
   {% endfor %} 
 </div>
